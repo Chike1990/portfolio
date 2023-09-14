@@ -30,7 +30,7 @@ const DOMloader = document.addEventListener("DOMContentLoaded", () => {
             <form>
                 <input type="text" name="name" placeholder="Name" required>
                 <input type="email" name="email" placeholder="Email" required>
-                <textarea name="message" placeholder="Type your message here" required>
+                <textarea name="message" placeholder="Type your message here" required></textarea>
                 <button type="submit">Send Message</button>
             </form>
             `;
